@@ -24,7 +24,7 @@ LINEでログインすることができ、ユーザー登録、ログイン、�
 ### Dev server
 
 ```bash
-git clone
+git clone https://github.com/HRTK92/next-boards.git
 cd next-boards
 yarn dev
 ```
