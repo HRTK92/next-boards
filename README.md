@@ -1,8 +1,8 @@
 # Next Boards
 
-このリポジトリは、Next.js、Tailwind CSS、MongoDB、NextAuth.jsを使った掲示板です。
-LINEでログインすることができ、ユーザー登録、ログイン、名前の変更ができます。
-スレッドを作成することができ、タグ付け、パブリックスレッド、プライベートスレッドがあります。
+このリポジトリは、Next.js、Tailwind CSS、MongoDB、NextAuth.jsを使った掲示板です。  
+LINEでログインすることができ、ユーザー登録、ログイン、名前の変更ができます。  
+スレッドを作成することができ、タグ付け、パブリックスレッド、プライベートスレッドがあります。  
 
 ## 機能
 
@@ -29,26 +29,17 @@ LINEでログインすることができ、ユーザー登録、ログイン、�
 
 ## 使い方
 
-### Dev server
+### git clone
 
 ```bash
 git clone https://github.com/HRTK92/next-boards.git
 cd next-boards
+```
+
+### 開発用サーバー
+
+```bash
 yarn dev
-```
-
-開発サーバーが起動します。
-
-### Build
-
-```bash
-yarn build
-```
-
-### Start
-
-```bash
-yarn start
 ```
 
 ## .envの設定
