@@ -4,8 +4,6 @@
 LINEでログインすることができ、ユーザー登録、ログイン、名前の変更ができます。
 スレッドを作成することができ、タグ付け、パブリックスレッド、プライベートスレッドがあります。
 
-<img src="./screenshot.png" width="200" />
-
 ## 機能
 
 - ユーザー登録 ([LINEログイン](https://next-auth.js.org/providers/line))
@@ -18,6 +16,16 @@ LINEでログインすることができ、ユーザー登録、ログイン、�
     - プライベートスレッド
   - スレッド一覧
   - レス送信
+
+## デモ
+
+| ホーム画面 | 設定画面 |
+| -------- | ------- |
+| <img src="./images/homeScreen.png" width="200" /> | <img src="./images/settingScreen.jpg" width="200" /> |
+
+| スレッド作成画面 | スレッド |
+| ------------- | ------- |
+| <img src="./images/createThreadScreen.jpg" width="200" /> | <img src="./images/threadScreen.jpg" width="200" /> |
 
 ## 使い方
 
