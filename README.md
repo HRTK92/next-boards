@@ -29,6 +29,10 @@ LINE でログインすることができ、ユーザー登録、ログイン、
 
 ## セットアップ手順
 
+### Vercelにデプロイ
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HRTK92/next-boards&project-name=next-boards&repository-name=next-boards&demo-title=next-boards&demo-description=Next.jsで作られた掲示板&demo-url=https://precedent.dev&env=DATABASE_URL,SECRET,LINE_CLIENT_ID,LINE_CLIENT_SECRET,NEXTAUTH_URL,NEXT_PUBLIC_SITE_NAME&envDescription=詳しい情報はこちらから:&envLink=https://github.com/HRTK92/next-boards#env%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E8%A8%AD%E5%AE%9A)
+
 ### git clone
 
 ```bash
