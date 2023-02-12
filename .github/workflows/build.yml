@@ -9,17 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: setup-node
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: yarn
 
-      - name: yatn install
+      - name: Package install
         run: yarn
 
-      - name: app build
+      - name: App build
         run: yarn build
