@@ -1,7 +1,7 @@
 # Next Boards
 
-このリポジトリは、Next.js、Tailwind CSS、MongoDB、NextAuth.jsを使った掲示板です。  
-LINEでログインすることができ、ユーザー登録、ログイン、名前の変更ができます。  
+このリポジトリは、Next.js、Tailwind CSS、MongoDB、NextAuth.js を使った掲示板です。  
+LINE でログインすることができ、ユーザー登録、ログイン、名前の変更ができます。  
 スレッドを作成することができ、タグ付け、パブリックスレッド、プライベートスレッドがあります。  
 
 ## 機能
@@ -27,7 +27,7 @@ LINEでログインすることができ、ユーザー登録、ログイン、�
 | ------------- | ------- |
 | <img src="./images/createThreadScreen.jpg" width="200" /> | <img src="./images/threadScreen.jpg" width="200" /> |
 
-## 使い方
+## セットアップ手順
 
 ### git clone
 
@@ -36,23 +36,28 @@ git clone https://github.com/HRTK92/next-boards.git
 cd next-boards
 ```
 
-### 開発用サーバー
+### .envファイルの設定
+
+.envファイルには以下の情報を記載する必要があります。
+
+- `DATABASE_URL`: MongoDBのデータベースURL
+- `SECRET`: NextAuth.js用のシークレット
+- `LINE_CLIENT_ID`: LINEのクライアントID
+- `LINE_CLIENT_SECRET`: LINEのクライアントシークレット
+- `NEXTAUTH_URL`: NextAuth.jsのURL
+- `NEXT_PUBLIC_SITE_NAME`: サイト名
+
+#### LINEログインのセットアップ
+
+以下の手順に従って、LINEログインを設定することができます。
+
+1. LINE Developersサイトでアカウントを作成する。
+2. LINEログインを作成する。
+3. クライアントIDとクライアントシークレットを取得する。
+4. .envファイルに上記の情報を記載する。
+
+### 開発用サーバーの起動
 
 ```bash
 yarn dev
-```
-
-## .envの設定
-
-```bash
-# .env
-DATABASE_URL={DATABASE_URL}
-SECRET={NEXTAUTH_SECRET}
-
-LINE_CLIENT_ID=
-LINE_CLIENT_SECRET=
-
-NEXTAUTH_URL=
-
-NEXT_PUBLIC_SITE_NAME= // サイト名
 ```
